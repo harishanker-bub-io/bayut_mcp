@@ -1,5 +1,6 @@
 # Bayut MCP Server
 
+[![MCPize](https://mcpize.com/badge/@harishanker.500apps/bayut)](https://mcpize.com/mcp/bayut)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![MCP](https://img.shields.io/badge/MCP-1.1.0-orange.svg)
@@ -70,6 +71,16 @@ Add this configuration:
 ### Step 4: Restart Claude Desktop
 
 Completely quit and restart Claude Desktop to load the MCP server.
+
+## Connect via MCPize
+
+Use this MCP server instantly with no local installation:
+
+```bash
+npx -y mcpize connect @harishanker.500apps/bayut --client claude
+```
+
+Or connect at: **https://mcpize.com/mcp/bayut**
 
 ## Usage
 
